@@ -322,7 +322,7 @@ export default {
               res:this.tts.res
           }
 
-          this.$http.post("http://localhost:3000/users",newTts)
+          this.$http.post("http://127.0.0.1:1323/save",newTts)
               .then(function(response){
                   console.log(response)
               })
